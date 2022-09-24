@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "nodemon server/index.js",
-    "build": "webpack --mode development --watch"
+    "build": "webpack --mode development --watch",
+    "build:production": "webpack --mode production --watch"
   },
   "repository": {
     "type": "git",
