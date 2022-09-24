@@ -9,15 +9,26 @@ People with lower levels of education tend not to know their rights protected by
 We developed this web app to educate civilians on their rights immediately when facing the police.
 
 ## Installation
+1. Fork the project and clone to your local repository
+2. Install all the packages and dependencies by running:
+  ``` npm install```
+3. Run webpack at local development mode: 
+  ```npm run build ```   
+   *If you need to run webpack in production mode: 
+   ``` npm run build:production ```
+4. Start server:
+  ```npm start ```
+5. Visit http://localhost:3000 to start the page
 
-```
-npm run install
-```
-Install both client and server dependencies.
+## Contributors
+* [Shiwei Chen](https://github.com/shiweicc) 
+* [Ying Deng](https://github.com/dybn7758) 
+* [King Man Chow](https://github.com/chowkingman) 
 
-## Development
-
-```
-npm run start
-```
-Runs client and server in development mode; use `http://localhost:3000/` during development
+## Teach Stack
+* [React](https://reactjs.org/)
+* [Node](https://nodejs.org/en/)
+* [Express](http://expressjs.com/)
+* [Amazon AWS](https://aws.amazon.com/)
+* [Babel](https://babeljs.io/)
+* [Webpack](https://webpack.js.org/)
