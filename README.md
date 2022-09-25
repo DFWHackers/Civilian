@@ -21,14 +21,16 @@ We developed this web app to educate civilians on their rights immediately when 
 5. Visit http://localhost:3000 to start the page
 
 ## Contributors
-* [Shiwei Chen](https://github.com/shiweicc) 
-* [Ying Deng](https://github.com/dybn7758) 
-* [King Man Chow](https://github.com/chowkingman) 
+* [Shiwei Chen](https://github.com/shiweicc) - FullStack Engineer
+* [King Man Chow](https://github.com/chowkingman) - FullStack Engineer
+* [Ying Deng](https://github.com/dybn7758) - Backend Engineer
+
 
 ## Teach Stack
 * [React](https://reactjs.org/)
 * [Node](https://nodejs.org/en/)
 * [Express](http://expressjs.com/)
+* [MongoDB](http://www.mongodb.com/)
 * [Amazon AWS](https://aws.amazon.com/)
 * [Babel](https://babeljs.io/)
 * [Webpack](https://webpack.js.org/)
