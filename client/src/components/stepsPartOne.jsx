@@ -10,7 +10,7 @@ class StepsPartOne extends React.Component {
 
     return (
       <div>
-        <h1>📸 !!!RECORDING!!! 📸</h1>
+        <h1> RECORDING... </h1>
         <div>
           <h3>Step 1:xxxxxxxxxx </h3>
           <h3>Step 2:xxxxxxxxxx </h3>
@@ -25,26 +25,6 @@ class StepsPartOne extends React.Component {
       </div>
     );
   }
-
 }
-
-// const StepsPartOne = (props) => {
-//   return (
-//     <div>
-//       <h1>📸 !!!RECORDING!!! 📸</h1>
-//       <div>
-//         <h3>Step 1:xxxxxxxxxx </h3>
-//         <h3>Step 2:xxxxxxxxxx </h3>
-//         <h3>Step 3:xxxxxxxxxx </h3>
-//         <h3>Step 4:xxxxxxxxxx </h3>
-//         <h3>Step 5:xxxxxxxxxx </h3>
-//         {props.clickCallLawyer
-//           ? < CallLawyer />
-//           : <button onClick={props.handleCallLawyer}>CALL MY LAWYER</button>
-//         }
-//       </div>
-//     </div>
-//   );
-// };
 
 export default StepsPartOne;
