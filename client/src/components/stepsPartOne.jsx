@@ -6,8 +6,6 @@ class StepsPartOne extends React.Component {
     super(props)
   }
   render () {
-
-
     return (
       <div>
         <h1 className="recordHeader"> RECORDING... </h1>

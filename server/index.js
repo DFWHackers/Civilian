@@ -10,9 +10,11 @@ app.use(express.static(__dirname + "/../client/dist"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect(
-  "mongodb+srv://pullover123:HackDFW@cluster-pullover.da96uks.mongodb.net/pulloverDB?retryWrites=true&w=majority"
-);
+// mongoose.connect(
+//   "mongodb+srv://pullover123:HackDFW@cluster-pullover.da96uks.mongodb.net/pulloverDB?retryWrites=true&w=majority"
+// );
+
+mongoose.connect('mongodb://localhost/fetcher', {useNewUrlParser: true, useUnifiedTopology: true});
 
 app.get("/getUsers", (req, res) => {
   userModel.find({}, (err, result) => {
@@ -48,5 +50,5 @@ app.post("/createLawyer", async (req, res) => {
   res.json(lawyer);
 });
 
-app.get("/", (req, res) => res.send("HELLO FROM EXPRESS"));
+
 app.listen(3000, () => console.log("App is listening on port 3000!"));
