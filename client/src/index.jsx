@@ -42,8 +42,8 @@ class App extends React.Component {
 
   render () {
     return (
-      <div>
-        <h1>🚓 CIVILIAN SOS 🚓</h1>
+      <div className="app" >
+        <h1 className="title">🚓 CIVILIAN SOS 🚓</h1>
         {/* <button>Sign In</button>
         <br></br><button>Use As Guest</button><br></br> */}
         <br></br>{this.state.clickPullOverBtn
@@ -53,8 +53,9 @@ class App extends React.Component {
               handleNext={this.handlePullOverPartOneBtn}
               clickNext={this.state.clickPullOverPartOneBtn}
             />
-          : <button onClick={this.handlePullOverBtn}>I GOT PULLED OVER !!!</button>
+          : <button className="pullOverBtn" onClick={this.handlePullOverBtn}>I GOT PULLED OVER !!!</button>
         }
+        <div id="background"></div>
       </div>
     )
   }
