@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DFWHackers/pullover.git"
+    "url": "git+https://github.com/DFWHackers/Civilian.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DFWHackers/pullover/issues"
+    "url": "https://github.com/DFWHackers/Civilian/issues"
   },
-  "homepage": "https://github.com/DFWHackers/pullover#readme",
+  "homepage": "https://github.com/DFWHackers/Civilian#readme",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
