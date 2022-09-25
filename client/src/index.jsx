@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import StepsPartOne from './components/stepsPartOne.jsx';
+import StepsPartTwo from './components/stepsPartTwo.jsx';
+
 
 class App extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
+      clickPullOverPartOneBtn: false,
       clickPullOverBtn: false,
       clickCallLawyer: false,
     }
+    this.handlePullOverPartOneBtn = this.handlePullOverPartOneBtn.bind(this);
     this.handlePullOverBtn = this.handlePullOverBtn.bind(this);
     this.handleCallLawyer = this.handleCallLawyer.bind(this);
   }
@@ -29,6 +33,12 @@ class App extends React.Component {
     })
   }
 
+  handlePullOverPartOneBtn() {
+    this.setState({clickPullOverPartOneBtn: true, clickPullOverBtn: false}, () => {
+      console.log('clicked PullOver part one next button: ', this.state.clickPullOverPartOneBtn)
+    })
+  }
+
 
   render () {
     return (
@@ -40,6 +50,8 @@ class App extends React.Component {
           ? < StepsPartOne
               handleCallLawyer={this.handleCallLawyer}
               clickCallLawyer={this.state.clickCallLawyer}
+              handleNext={this.handlePullOverPartOneBtn}
+              clickNext={this.state.clickPullOverPartOneBtn}
             />
           : <button onClick={this.handlePullOverBtn}>I GOT PULLED OVER !!!</button>
         }
