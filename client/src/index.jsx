@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import StepsPartOne from './components/stepsPartOne.jsx';
-import StepsPartTwo from './components/stepsPartTwo.jsx';
 
 
 class App extends React.Component {
@@ -43,7 +42,7 @@ class App extends React.Component {
   render () {
     return (
       <div className="app" >
-        <h1 className="title">🚓 CIVILIAN SOS 🚓</h1>
+        <h1 className="title">🚓 CIVILIAN 🚓</h1>
         {/* <button>Sign In</button>
         <br></br><button>Use As Guest</button><br></br> */}
         <br></br>{this.state.clickPullOverBtn
