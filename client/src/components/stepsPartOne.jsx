@@ -22,7 +22,7 @@ class StepsPartOne extends React.Component {
             : <button className="callLawyerBtn" onClick={this.props.handleCallLawyer}>CALL MY LAWYER</button>
           }
           <br></br>
-          <button className="findLawyerBtn">FIND MY LAWYER</button>
+          <button className="findLawyerBtn">FIND A LAWYER</button>
           <br></br>
         </div>
       </div>
