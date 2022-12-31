@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import StepsPartOne from './components/stepsPartOne.jsx';
-
+import FindLawyer from './components/FindLawyer.jsx';
 
 class App extends React.Component {
 
@@ -52,7 +52,7 @@ class App extends React.Component {
               handleNext={this.handlePullOverPartOneBtn}
               clickNext={this.state.clickPullOverPartOneBtn}
             />
-          : <button className="pullOverBtn" onClick={this.handlePullOverBtn}>I GOT PULLED OVER !!!</button>
+          : <button className="pullOverBtn" onClick={this.handlePullOverBtn}>I GOT PULLED OVER</button>
         }
         <div id="background"></div>
       </div>
