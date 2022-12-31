@@ -3,6 +3,7 @@ config.js
 client/dist/bundle.js
 client/dist/bundle.js.LICENSE.txt
 .env
+ETL.js
 
 # Logs
 logs
